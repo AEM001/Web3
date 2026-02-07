@@ -11,14 +11,14 @@ contract MyContract{
     function get(uint i)public view returns(uint){
         return array[i];
     }
-    function length()public view returns(unit){
+    function length()public view returns(uint){
         return array.length;
     }
     function push(uint i)public{
         array.push(i);
     }
     function pop()public{
-        array.pop()
+        array.pop();
     }
     function remove(uint index)public{
         delete array[index];

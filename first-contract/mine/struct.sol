@@ -1,5 +1,5 @@
-//
-pragma solidity ^
+//SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.28;
 
 contract MyContract{
     struct Book{
@@ -23,7 +23,7 @@ contract MyContract{
         return (book.title,book.author,book.completed);
     }
     function finishBook(uint _index)public{
-        books[_index].completed=True;
+        books[_index].completed=true;
 
     }
     // why does it use uint instead of name

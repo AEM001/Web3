@@ -3,9 +3,9 @@ import { configVariable, defineConfig } from "hardhat/config";
 
 export default defineConfig({
   plugins: [hardhatToolboxMochaEthersPlugin],
-  // paths: {
-  //   sources: "./mine",  
-  // },
+  paths: {
+    sources: "./mine",  
+  },
   solidity: {
     profiles: {
       default: {

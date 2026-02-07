@@ -10,17 +10,97 @@ import * as Contracts from "./index.js";
 
 declare module "@nomicfoundation/hardhat-ethers/types" {
   interface HardhatEthersHelpers extends HardhatEthersHelpersBase {
-  getContractFactory(name: 'Counter', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Counter__factory>
-getContractFactory(name: 'Greeting', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Greeting__factory>
+  getContractFactory(name: 'DataTypes', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.DataTypes__factory>
+getContractFactory(name: 'Functions', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Functions__factory>
+getContractFactory(name: 'Visibility', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Visibility__factory>
+getContractFactory(name: 'Modifiers', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Modifiers__factory>
+getContractFactory(name: 'Payable', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Payable__factory>
+getContractFactory(name: 'Constructor', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Constructor__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'Ownable', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Ownable__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'SecretVault', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.SecretVault__factory>
+getContractFactory(name: 'IERC20', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.IERC20__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
+getContractFactory(name: 'MyContract', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MyContract__factory>
 
-  getContractAt(name: 'Counter', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Counter>
-getContractAt(name: 'Greeting', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Greeting>
+  getContractAt(name: 'DataTypes', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.DataTypes>
+getContractAt(name: 'Functions', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Functions>
+getContractAt(name: 'Visibility', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Visibility>
+getContractAt(name: 'Modifiers', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Modifiers>
+getContractAt(name: 'Payable', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Payable>
+getContractAt(name: 'Constructor', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Constructor>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'Ownable', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Ownable>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'SecretVault', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.SecretVault>
+getContractAt(name: 'IERC20', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.IERC20>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
+getContractAt(name: 'MyContract', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MyContract>
 
-  deployContract(name: 'Counter', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Counter>
-deployContract(name: 'Greeting', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Greeting>
+  deployContract(name: 'DataTypes', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.DataTypes>
+deployContract(name: 'Functions', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Functions>
+deployContract(name: 'Visibility', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Visibility>
+deployContract(name: 'Modifiers', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Modifiers>
+deployContract(name: 'Payable', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Payable>
+deployContract(name: 'Constructor', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Constructor>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'Ownable', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Ownable>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'SecretVault', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.SecretVault>
+deployContract(name: 'IERC20', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IERC20>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
 
-  deployContract(name: 'Counter', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Counter>
-deployContract(name: 'Greeting', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Greeting>
+  deployContract(name: 'DataTypes', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.DataTypes>
+deployContract(name: 'Functions', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Functions>
+deployContract(name: 'Visibility', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Visibility>
+deployContract(name: 'Modifiers', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Modifiers>
+deployContract(name: 'Payable', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Payable>
+deployContract(name: 'Constructor', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Constructor>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'Ownable', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Ownable>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'SecretVault', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.SecretVault>
+deployContract(name: 'IERC20', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IERC20>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
+deployContract(name: 'MyContract', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MyContract>
 
     // default types
     getContractFactory(
